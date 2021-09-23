@@ -353,4 +353,3 @@ def dilate_mask(mask,opt):
     mask = (mask-mask.min())/(mask.max()-mask.min())
     return mask
 
-
